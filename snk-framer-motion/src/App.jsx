@@ -5,6 +5,8 @@ import Home  from "./pages/Home"
 import About from "./pages/About"
 import NewsLetter from "./pages/NewsLetter"
 
+
+
 function App() {
   const location=useLocation();
   console.log(location);

@@ -1,7 +1,8 @@
 import React from 'react'
 import {motion} from "framer-motion"
 import {Link} from "react-router-dom"
-import "./Home.css"
+import Colosal from '../components/Colosal'
+import Logo from '../components/Logo'
 
 const containerVariants={
     hidden:{
@@ -27,6 +28,8 @@ export const Home = () => {
         animate="show"
         exit="exit"
         >
+        <Colosal></Colosal>
+        <Logo></Logo>
             <motion.h1
                 initial={{y:-10}}
                 animate={{y:10,
@@ -38,7 +41,7 @@ export const Home = () => {
                          }
                 }}
             >
-            <Link className="link" to="/about">&#8659;</Link>
+            <Link className="link" to="/about">▼</Link>
             </motion.h1>
         </div>
         

@@ -34,7 +34,6 @@ const containerVariant={
 const NewsLetter = () => {
     return (
         <motion.div className="newsletter-container"
-        className="about-container" 
         variants={containerVariant}
         initial="hidden"
         animate="show"
