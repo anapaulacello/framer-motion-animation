@@ -46,8 +46,8 @@ const NewsLetter = () => {
             <Link className="link" to="/about">▲</Link>
             </motion.h1>
             <div className="tatakae-container">
-                <h1>戦え</h1>
-                <h4>TATAKAE</h4>
+                <h1 className="tatakae-kanji">戦え</h1>
+                <h4 className="tatakae">TATAKAE</h4>
             </div>
         </motion.div>
     )

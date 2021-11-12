@@ -86,13 +86,15 @@
 .newsletter-container{
     text-align:center;
     padding: 10px;
-}
-.tatakae-container{
-    
-    position: absolute;
-    top: 40%;
-    left: 48%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .newsletter-container >h1{
     text-align: center;
+}
+.tatakae-kanji{
+    font-size: 100px;
 }
